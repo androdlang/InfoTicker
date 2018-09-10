@@ -18,7 +18,7 @@ Just include the `JLInfoTicker`  in your arduino library path
   * the callback function for providing your text
 2. call the `tick()` function periodically, typically in between the `loop()` function. 
 ## Inteface
-* `void init(SSD1306Wire *oled,const uint8_t *fontData, InfoTickerCallback cb )'
+* `void init(SSD1306Wire *oled,const uint8_t *fontData, InfoTickerCallback cb )´
 * `void setScrollDelay(int sdelay)`
 * `int getScrollDelay()`
 * `void setBottomAligned(bool ba)`
