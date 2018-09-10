@@ -10,7 +10,7 @@ With this library you can display a horizontal scrolling textline on your SSD130
 ## Restrictions
 You have to use a monospaced Font
 ## Installation
-Just include the `JLInfoTicker`  in your arduino library path
+Just include the `JLInfoTicker.h`  in your arduino library path
 ## Usage
 1. create an instance and initialize with following parameters:
   * the SSD1306 instance
