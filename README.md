@@ -8,7 +8,7 @@ With this library you can display a horizontal scrolling textline on your SSD130
 * Font, speed and alignment are parameterizable 
 * easy operation
 ## Restrictions
-You have to use a monospaced Font
+You have to use a monospaced Font. I have provided one font with one size, but you can generate more fonts with te online generator: http://oleddisplay.squix.ch/ , Consider a donation.
 ## Installation
 Just include the `JLInfoTicker.h`  in your arduino library path
 ## Usage
