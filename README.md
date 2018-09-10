@@ -26,8 +26,8 @@ Just include the `JLInfoTicker`  in your arduino library path
 * `void tick()`
 ## Remarks
 The callback function for providing your text has following signature: `typedef String (* InfoTickerCallback)(int);`
-This function will be called every time a text is required, this can be for the first text or if a previous text was fully scrolled. The incoming parameter is an incrementing counter value which you can use for your logic to return your desired text.
-example: periodically alternating 4 textlines
+This function will be called every time a text is required, this can be for the first text or if a previous text was fully scrolled. The incoming parameter is an incrementing counter value which you can use for your logic to return your desired text, 
+for example: periodically alternating 4 textlines:
 `
 String abc[]={"Text line AAA", "Text line BBB","Text line CCC,"Text line DDD"};
 infoTicker.init(& display,Monospaced_plain_12,[](int nr){int n=nr%4;return abc[n];});
