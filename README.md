@@ -30,4 +30,5 @@ This function will be called every time a text is required, this can be for the 
 for example: periodically alternating 4 textlines:
 
 `String abc[]={"Text line AAA", "Text line BBB","Text line CCC,"Text line DDD"};`
+
 ` infoTicker.init(& display,Monospaced_plain_12,[](int nr){int n=nr%4;return abc[n];});`
