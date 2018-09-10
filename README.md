@@ -4,7 +4,7 @@ With this library you can display a horizontal scrolling textline on your SSD130
 ## Features
 * smooth scrolling  
 * no restriction about the text length
-* Font, speed and alignment are paramerizable 
+* Font, speed and alignment are parameterizable 
 * easy operation
 ## Restrictions
 You have to use a monospaced Font
