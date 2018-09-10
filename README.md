@@ -8,9 +8,9 @@ I've written this library for the Wemos LOLIN32 board, which uses an ESP32 with 
 
 ## Features
 * smooth scrolling (per pixel) 
-* no restriction about the text length
-* text can be provided dynamically
-* Font, speed and alignment are parameterizable 
+* no text length restriction
+* dynamic text support
+* Font, speed and alignment parameters
 * easy operation
 ## Restrictions
 You have to use a monospaced Font. I have provided one font with one size, but you can generate more fonts with an online generator: http://oleddisplay.squix.ch/ 
