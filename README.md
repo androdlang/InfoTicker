@@ -2,7 +2,7 @@
 Smooth scrolling text library for the SSD1306 display / Arduino.
 With this library you can display a horizontal scrolling textline on your SSD1306 display. The scrolling text will appear either on top or bottom of your display. There is no restriction about the length of the textline, this is especially useful for displaying live messages such as feeds or measurement data.
 
-I've writen this library for the Wemos LOLIN32 board, which uses an ESP32 with a SSD1306 OLED display.
+I've written this library for the Wemos LOLIN32 board, which uses an ESP32 with a SSD1306 OLED display.
 ![GitHub Logo](/images/JLInfoTicker.jpg)
 
 
