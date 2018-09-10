@@ -25,8 +25,7 @@
 #ifndef JLInfoTicker_h
 #define JLInfoTicker_h
 #include "SSD1306Wire.h"
-#define JLIT_VALIGMENT_TOP 0
-#define JLIT_VALIGMENT_BOTTOM 1
+
 #define SCREEN_HEIGHT 64
 #define SCREEN_WIDTH 128
 
