@@ -12,11 +12,12 @@ You have to use a monospaced Font. I have provided one font with one size, but y
 ## Installation
 Just include the `JLInfoTicker.h`  in your arduino library path
 ## Usage
-1. create an instance and initialize with following parameters:
+1. include the `JLInfoTicker.h` file
+2. create an instance and initialize with following parameters:
   * the SSD1306 instance
   * the Font the library will use
   * the callback function for providing your text
-2. call the `tick()` function periodically, typically in between the `loop()` function. 
+3. call the `tick()` function periodically, typically in between the `loop()` function. 
 ## Interface
 * `void init(SSD1306Wire *oled,const uint8_t *fontData, InfoTickerCallback cb )`
 * `void setScrollDelay(int sdelay)` (in ms, default 25ms)
