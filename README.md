@@ -1,6 +1,6 @@
 # JLInfoTicker
 Smooth scrolling text library for the SSD1306 display / Arduino.
-With this library you can display a horizontal scrolling textline on your SSD1306 display. The scrolling text will appear either on top or bottom of your display. There is no restriction about the length of the textline! This is especially useful for displaying live messages such as feeds or measurement data.
+With this library you can display a horizontal scrolling textline on your SSD1306 display. The scrolling text will appear either on top or bottom of your display. There is no restriction about the length of the textline, this is especially useful for displaying live messages such as feeds or measurement data.
 ## Features
 * smooth scrolling  
 * no restriction about the text length
