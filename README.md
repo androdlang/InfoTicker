@@ -4,7 +4,8 @@ With this library you can display a horizontal scrolling textline on your SSD130
 
 I've written this library for the Wemos LOLIN32 board, which uses an ESP32 with a SSD1306 OLED display.
 ![GitHub Logo](/images/JLInfoTicker.jpg)
-For live view, see https://youtu.be/L9V65wh85Yk
+
+For a live view, see https://youtu.be/L9V65wh85Yk
 
 
 ## Features
