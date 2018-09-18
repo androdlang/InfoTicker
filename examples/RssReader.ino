@@ -1,5 +1,6 @@
 
-
+// THIS FILE IS PART OF A PROJECT AND FOR DEMONSTRATION ONLY!!
+// (c) Johann Langhofer 2018
 #include "Monospaced_plain_12.h"
 
 //#include "SPIFFS.h"
